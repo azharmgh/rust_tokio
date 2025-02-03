@@ -1,0 +1,11 @@
+[package]
+name = "karin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[dependencies.uuid]
+version = "0.8"
+features = ["v4"]
